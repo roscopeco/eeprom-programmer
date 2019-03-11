@@ -1,5 +1,5 @@
-#define CLOCK_PIN D1
 #define DATA_PIN D0
+#define CLOCK_PIN D1
 #define WE_PIN D2
 #define A10_PIN D3
 #define A11_PIN D4
