@@ -11,6 +11,8 @@ Schematic (such as it is) coming soon.
 
 ## The board
 
+![Board image](board.jpg?raw=true "The board")
+
 The board is driven by a NodeMCU, which has 9 GPIOs (plus a few more if you use the SPI pins etc, but I've had 
 limited success with these on some of my boards). Its real purpose is as a WiFi-enabled IOT controller, but I like 
 it for quick hack projects like this too. It's Arduino compatible so I can program it in C, and (more crucially for this
