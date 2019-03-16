@@ -44,8 +44,10 @@ shift register.
 
 ## Enhancements
 
-At the moment this just writes the same data to every byte. I then hook up the EEPROM to a bunch of LEDs and
-use jumpers to drive the address bus. The next step is to allow it receive (via USB serial probably) a bunch
+At the moment this just writes the same data to every byte. I then pull the EEPROM and put it into another board to verify it's been written correctly; there I hook up the EEPROM to a bunch of LEDs (on the data pins) and
+use jumpers to drive the address pins. 
+
+The next step is to allow it receive (via USB serial probably) a bunch
 of actual data to write.
 
 It could also get the data over WiFi, but that would just be silly.
