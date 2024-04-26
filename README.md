@@ -1,3 +1,5 @@
+> **note**: This repository is archived and development / support is discontinued.
+
 # Very hacky EEPROM programmer
 
 This project uses an ESP8266 dev board (NodeMCU 1.0) along with three 74LS174 hex D-flip flops to program the 64 Kbit EEPROMs 
